@@ -22,7 +22,7 @@ int main() {
             while (cin.get() != '\n');
         }
         cout << "Введите второе число: ";
-        cout << t;
+
         while (!(cin >> y) || cin.get() != '\n')
         {
             cin.clear();
